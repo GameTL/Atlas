@@ -73,6 +73,12 @@ void setup()
 void loop()
 {
     drive(0, 0, 0);
+    drive(20, 0, 0);
+    delay(2000);
+    drive(-20, 0, 0);
+    delay(2000);
+    drive(20, 20, 0);
+    delay(20000);
 }
 
 /* if (foward)
